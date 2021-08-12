@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SoundMash</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">User Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password ( At least 6 characters )</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="reset_your_password">Reset your password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="enter_your_registered_e_mail">Enter your registered E-mail</string>
+    <string name="back">Back</string>
+    <string name="Library">Library</string>
+    <string name="setting">Setting</string>
+    <string name="songs">Songs</string>
+    <string name="see_all_songs">see all songs</string>
+    <string name="_0">0</string>
+    <string name="feature">Feature</string>
+    <string name="playlists">playlists</string>
+    <string name="see_all">see all</string>
+    <string name="specific_playlist_note" />
+    <string name="create">creat</string>
+    <string name="customization">customization</string>
+    <string name="in_app_volume">in app vo;ume</string>
+    <string name="left_right_audio_balance">left right audio balance</string>
+    <string name="specific_playlist">specific playlist</string>
+    <string name="artist_image_background">artist image background</string>
+    <string name="language">language</string>
+    <string name="change_languague_note">change languague note</string>
+    <string name="english">english</string>
+    <string name="Hindi">Hindi</string>
+    <string name="more_setting">setting</string>
+    <string name="library">library</string>
+    <string name="Playlists">Playlists</string>
+    <string name="Artists">Artists</string>
+    <string name="this_is_artist_of_the_song">This is artist of the song</string>
+    <string name="play_in">Play In</string>
+    <string name="all_songs">all songs</string>
+    <string name="this_is_name_of_the_song">This is the name of the song</string>
+</resources>

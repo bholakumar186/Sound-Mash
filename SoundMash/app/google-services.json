@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "918370782940",
+    "project_id": "soundmash-2611f",
+    "storage_bucket": "soundmash-2611f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918370782940:android:0454cc9b4edfd36ad46e19",
+        "android_client_info": {
+          "package_name": "com.example.soundmash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918370782940-k84hiegsh9vt73sij9s8vgelumvjdms2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxHXszTGHBk3PLNhZx3VP40GCDfSprN8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918370782940-k84hiegsh9vt73sij9s8vgelumvjdms2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

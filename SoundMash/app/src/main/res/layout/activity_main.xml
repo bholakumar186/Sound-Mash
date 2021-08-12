@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/feature_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingStart="0dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="12dp"
+            android:src="@drawable/ic_splash_logo"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:paddingEnd="26dp"
+            android:singleLine="true"
+            android:text="@string/feature"
+            android:textAlignment="inherit"
+            android:textColor="@color/FlatWhite"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/menu"
+            app:layout_constraintStart_toEndOf="@id/menu"
+            app:layout_constraintTop_toTopOf="@id/menu" />
+
+        <ImageView
+            android:id="@+id/list_type"
+            android:layout_width="132dp"
+            android:layout_height="56dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:src="@drawable/columns"
+            app:layout_constraintBottom_toBottomOf="@id/menu"
+            app:layout_constraintEnd_toStartOf="@id/search"
+            app:layout_constraintTop_toTopOf="@id/menu"
+            app:tint="@color/FlatWhite" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="86dp"
+            android:layout_height="56dp"
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="15dp"
+            android:src="@drawable/search"
+            app:layout_constraintBottom_toBottomOf="@id/menu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/menu"
+            app:tint="@color/FlatWhite" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/playlist_frame"
+        layout="@layout/playlists_piece_layout"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_below="@+id/feature_layout" />
+
+    <include
+        android:id="@+id/song_frame"
+        layout="@layout/song_piece_layout"
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_below="@+id/playlist_frame" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/primary"
+        app:menu="@menu/menu_navigation" />
+
+
+</RelativeLayout>

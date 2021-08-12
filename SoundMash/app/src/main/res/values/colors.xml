@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#181b2c</color>
+    <color name="editText">#292E48</color>
+    <color name="startColor">#ED8770</color>
+    <color name="endColor">#D9519D</color>
+    <color name="hintColor">#d0d1d4</color>
+    <color name="transStartColor">#80ED8770</color>
+    <color name="transEndColor">#80D9519D</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="flatOrange">#FF9500</color>
+    <item name="FlatWhite" type="color">#F5F5F5</item>
+    <color name="background_panel_color">#080808</color>
+    <color name="library_back_color">#FB181818</color>
+    <color name="library_back_color_dd">#DD181818</color>
+    <color name="library_back_color_88">#88181818</color>
+    <color name="color_aaa">#aaa</color>
+</resources>
